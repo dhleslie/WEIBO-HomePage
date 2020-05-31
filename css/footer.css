@@ -1,0 +1,103 @@
+.footer{
+    background-color:#FFF;
+}
+
+.footer a{
+    color: #888;
+}
+.footer a:hover{
+    color: coral;
+}
+.footer span{
+    color: #888;
+}
+
+.footer_link{
+    width: 840px;
+    margin: auto;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.footer_link dl.list{
+    margin-right: 50px;
+}
+
+.link_1{
+    width: 138px;
+    height: 116px;
+}
+.link_2{
+    width: 198px;
+    height: 123px;
+}
+.link_3{
+    width: 160px;
+    height: 116px;
+}
+.link_4{
+    width: 142px;
+    height: 116px;
+}
+
+.footer_link  dt{
+    padding-bottom: 15px;
+}
+
+.txt_spacial{
+    margin-left: 12px;
+}
+
+.footer_link dl.link_2 dd a{
+    float: right;
+}
+
+.S_txt2{
+    margin-right: 10px;
+}
+.link_2 a.S_txt2{
+    margin-right: 0px;
+}
+.footer_link dl.list dd{
+    margin-bottom: 2px;
+}
+.footer_link dl.list dd .T_code img{
+    width: 79px;
+    height: 79px;
+}
+.footer_link dl.list dd .T_txt{
+    width: 109px;
+    height: 30px;
+}
+
+
+.other_link{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(242, 242,245);
+    text-align: center;
+}
+.other_link p.copy{
+    margin-bottom: 10px;
+}
+
+i.icon_weibo{
+    display: inline-block;
+    width: 21px;
+    height: 20px;
+    background: url(../footer/weibo_icon.bmp) no-repeat -1px -2px;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+i.icon_netsecurity{
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+    background: url(../footer/police_icon.png) no-repeat -1px -2px;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+
+#lang_select{
+    margin-left: 10px;
+}

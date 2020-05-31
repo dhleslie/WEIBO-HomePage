@@ -1,0 +1,85 @@
+.top{
+    height: 48px;
+    width: 1580px;
+    position:relative;
+	left:50%;
+    margin-left:-770px;
+    background-color: rgb(255, 255, 255);
+}
+
+.t_logo .t_l_box{
+    padding-left: 80px;
+}
+
+/*右边搜索表单.search的样式*/
+.t_search .search{
+	position: relative;  /*相对定位，用于作为子元素绝对定位时的参照对象*/
+	width: 470px;     /*设置宽度*/
+	margin-top: 10px;
+	height: 30px;
+    border:1px solid #DDD;
+    background-color: rgb(242,242,245);
+}
+.t_search .search .search-bar{   /*设置搜索表单中文本框.search-bar的样式*/
+	position: absolute;
+	width: 450px;     /*设置宽度*/
+	height: 30px;
+	border:0;         /*设置无边框*/
+    outline:none;      /*设置无轮廓*/
+    background-color: rgb(242,242,245);
+}
+.t_search .search .search-bar:focus+p{  /*设置当表单中的文本框.search-bar获得焦点时，紧跟文本框之后的段落p的样式：不显示*/
+	display:none;
+}
+.t_search .search .s-submit{  /*搜索表单中提交按钮.s-submit 的样式*/
+	position: absolute;      /*绝对定位，以父元素.search表单为参照对象*/
+	bottom:6px;           /*垂直位置位于表单下边线之上6px*/
+	right:10px;             /*水平位置与表单右对齐*/
+	width: 20px;           /*设置宽度*/
+	height: 20px;           /*设置高度*/
+	border:0;              /*无边框*/
+	outline:none;           /*无轮廓*/
+	background:url(../top/icon-header.png) no-repeat 0px -25px; 
+     /*设置背景图片：从指定图片中获取相应部分作为背景*/
+}
+.t_search .search p{  /*设置搜索表单中的段落样式：用绝对定位控制段落位置*/
+	position: absolute;
+	left:15px;
+    top:7px;
+    margin-right:10px;
+	color: #666;
+	font-size:12px;
+}
+
+.t_position{
+    margin-left: 90px;
+    padding-top: 10px;
+}
+.t_position .t_p_list li+li{
+    margin-left: 20px;
+}
+.t_position .t_p_list a{
+    color: #000;
+    font-size: 14px;
+
+}
+.t_position .t_p_list a:hover{
+    color: coral;
+}
+.t_position .t_p_list img{
+    width: 30px;
+}
+
+.t_set{
+    padding: 10px;
+    margin-left: 20px;
+}
+.t_set .t_s_list{
+    border-left: 1px solid #DDD;
+}
+.t_set .t_s_list li{
+    margin-left: 10px;
+}
+.t_set .t_s_list li img{
+    width: 33px;
+}

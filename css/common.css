@@ -1,0 +1,48 @@
+@charset "UTF-8";
+body,ul,ol,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,form,input{
+    margin:0;padding:0;
+}
+body{
+	height:2400px;
+    font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    background: url(../t0190b631529777ca67.jpg);
+}
+.wrapper{ /*将所有的页面内容包裹在wrapper块中*/  
+	width: 100%;
+	overflow-x:hidden; /*当该块宽度超过网页宽度时，截断超出的内容，使网页不出现水平滚动条*/
+    min-width:1200px;	
+    border-top: 2px solid coral;
+}
+a{
+    color: #000;
+    text-decoration:none;
+    font-size: 12px;
+}
+a:hover{
+	color:coral;
+}
+li{
+    list-style-type:none;
+}
+img{ /*设置所有图片的垂直对齐为居中*/
+    vertical-align:middle;
+} 
+.fl{ /*设置左浮动样式*/
+    float:left;
+}         
+.fr{ /*设置右浮动样式*/
+    float:right;
+}          
+.clearfix::after{ /*设置清除浮动样式：用于恢复由于所有子元素浮动造成的高度坍塌*/
+	content:'';
+	display:block;
+	clear:both;
+}
+.m-w{ /*设置宽度统一为800px，自动居中的样式*/
+	width:920px;
+	margin:auto;
+}
+span{
+    font-size: 12px;
+}
+
